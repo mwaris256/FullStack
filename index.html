@@ -13,6 +13,75 @@
         padding: 10px;
         }
     </style>
+
+    <script src="muzammil.com/frontend/js/logic.js"></script>
+
+    <script>
+        // This is a single line comment
+        /* This is a 
+        multi-line comment */
+        document.write("Hello World! This is written using Javascript <br />");
+        
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+
+        window.alert("Hello Javascript ");
+
+        console.log("Learning Javascript is fun!");
+
+        name = "Muzammil";
+        console.log(name);
+
+        age = 40
+        document.write(age + "<br>");   
+
+        let x = 5;
+        const y = 6;
+        var description = "tall";
+        document.write(x  + "<br>" );
+        document.write(y + "<br>" );
+        document.write(description + "<br>" );
+        // let x = 10;
+        // const y = 20;
+        // const z = 25;
+        // assigning the same variable again gives you an error
+
+        let fname ;
+        document.write(fname + "<br>"); // undefined
+        z = "Waris";
+        document.write(z + "<br>"); 
+        z = 25;
+        document.write(z + "<br>"); 
+        r = 5;
+        t = 10;
+        document.write(r + "<br>");
+        document.write(t + "<br>");
+        r = 10;
+        t = 5
+        document.write(r + "<br>");
+        document.write(t + "<br>");
+        p = "Hello World"
+        document.write(p + "<br>");
+        l = 42;
+        document.write(l + "<br>");
+        k = true;
+        document.write(k + "<br>");
+        h = null;       
+        document.write(h + "<br>");
+        let student = {name: "Ali", age: 20}
+        document.write("Name:" + student.name + "<br>");
+        document.write("Age:" + student.age + "<br>");
+        let fruits = ["Apple", "Banana", "Mango"];
+        document.write(fruits[0] + "<br>");
+        document.write(fruits[1] + "<br>");
+        document.write(fruits[2] + "<br>");
+        document.write(typeof "hello" + "<br>");
+        document.write(typeof 5 + "<br>");  
+        document.write(typeof true + "<br>");
+        document.write(typeof null + "<br>");
+        document.write(typeof student + "<br>");
+    </script>
     
 
 </head>
@@ -28,6 +97,8 @@
 <p lang="en-us"> My name is <b>Muzammil</b>. I want to become a developer. </p>
 <p> I enjoy watching and playing <i>cricket and soccer</i>. My favourite cricketer used to be <strong>Mike Hussey</strong>.</p>
 <p> My favourite footballer is a former Chelsea striker, <em>Didier Drogba</em>.</p>
+<p id="jspicker">Javascript first topic</p>
+<button type="button" onclick="document.getElementById('jspicker').innerHTML='Yes this is Javascript'">please click here</button>
 
 <p>Here is a short list of some websites I go on daily.</p>
 <ol>
@@ -167,6 +238,16 @@
     <hr />
     <p>&copy; 2025 Muzammil Waris</p>
    </footer>
+   <script>
+   function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }</script>
+
+    <script>console.log("this is console");
+        let m = 7;
+        let n = 8;
+        document.write(m + n);
+    </script>
 </body>
 
 </html>
