@@ -10,7 +10,7 @@ window.alert("This is JS class"); //alerting box
 //console.log("this is console") //console
 
 //syntax style: keywords
-var a = 10; //= assigning operator + - * /
+var a = 10; //= assigning operator + - * / global scope, use in all pages
 let b = 20;
 const c = 30; //constant
 
