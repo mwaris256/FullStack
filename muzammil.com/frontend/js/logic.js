@@ -3,10 +3,10 @@ function myFunction() {
 }
 
 //this output
-innerHTML //html
-innerText //text, HTML
+//innerHTML //html
+//innerText //text, HTML
 //document.write("Hello World!") //HTML
-window.alert("This is JS class"); //alerting box
+//window.alert("This is JS class"); //alerting box
 //console.log("this is console") //console
 
 //syntax style: keywords
@@ -19,7 +19,7 @@ const c = 30; //constant
 */
 
 //data types 
-let a = 50; // this is a statement
+//let a = 50; // this is a statement
 x , y = 40, 8; 
 
 function add(x, y) {
