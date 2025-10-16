@@ -203,16 +203,18 @@ console.log(doubledNumbers);
 
 //22. 
 
-results = {}
-results.Tom = "85";
-results.Mark = "77";
-results.Phil = "92";
+const students = [
+    {name:"Ahmed", marks: 80},
+    {name:"Ali", marks: 87},
+    {name: "Sarmad", marks: 75},
+    {name: "Afsar", marks: 84}]
 
-data = [results]
-console.log(data);
+for (let stu of students){
+    if (stu.marks > 80) {
+        console.log(stu.name);
+    }
+}
 
-keys = Object.keys(results);
-values = Object.values(results);
 
 //23.
 
@@ -252,13 +254,15 @@ for (i=0; i < myTypedArray.length; i++){
 //26. 
 
 array10 = [10,10,20,30,30,40,50];
+newarray = []
 
-for (i=0; i <array10.length; i++){
-    if (array10[i].count > 1){
-        array10.splice(i,1);
+for (let arr of array10){
+    if(!newarray.includes(arr)){
+        newarray.push(arr);
     }
 }
-console.log(array10);
+console.log(newarray);
+
 
 //27. 
 
@@ -294,3 +298,18 @@ console.log(average);
 
 //30.
 
+const rnumbers = [];
+for (let i=0; i <21; i++){
+    rnumbers.push(Math.floor(Math.random() * 100));
+
+}
+console.log(rnumbers);
+
+d3nums = [];
+
+for (let rnum of rnumbers){
+    if (rnum % 3 == 0){
+        d3nums.push(rnum);
+    }
+}
+console.log(d3nums);
