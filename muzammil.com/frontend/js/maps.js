@@ -73,6 +73,13 @@ for (entry of data.entries()){
 dataArray = [...data];
 console.log(dataArray);
 
+//10. 
+
+const arr = [['id',1],['name','Sara']];
+
+const mymap = new Map(arr);
+console.log(mymap);
+
 //C3.
 
 evenNums = [2,4,6,8];
@@ -109,20 +116,31 @@ const results = new Map([
     ['Declan',76]
 ]);
 
-for (entry of results.entries()){
-    console.log(entry);
-}
-
 //C7.
 
-/*
-for ([key,value] of results.entries()) {
-    
-*/
+let topStudent = "";
+let topScore = 0;
+
+for (const [student, score] of results){
+    if (score > topScore){
+        topScore = score;
+        topStudent = student;
+    }
+}
+console.log(`Top student is ${topStudent} with score ${topScore}`);
 
 //C8.
 
-nums = [10,20,30,40];
+const tens = [10,20,30,40];
+
+const average = tens.reduce((sum, value) => sum +value,0) / tens.length;
+
+console.log(`Average is ${average}`);
+
+
+
+
+/*nums = [10,20,30,40];
 let sum = 0
 
 for (i=0, i< nums.length; i++;){
@@ -132,6 +150,8 @@ for (i=0, i< nums.length; i++;){
 average = sum/ nums.length;
 
 console.log(average);
+
+*/
 
 //C9. 
 
