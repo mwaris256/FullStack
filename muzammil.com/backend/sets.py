@@ -49,3 +49,18 @@ fruits.add("mango")
 fruits.remove("apple")
 fruits.pop()
 print(fruits)
+
+courses = {'History','Math','Physics','CompSci'}
+courses_2 = {'Art','Biology','Math'}
+print(courses)
+
+my_list = list(courses)
+my_list.sort()
+print(my_list)
+all_courses = set(my_list)
+print(all_courses)
+
+print(courses.union(courses_2))
+print(courses.intersection(courses_2))
+print(courses.difference(courses_2))
+

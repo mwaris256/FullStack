@@ -118,3 +118,64 @@ for letter in enumerate(letters):
 
 letters.append('d')
 print(letters)
+
+courses = ['History','Math','Physics','CompSci']
+courses_2 = ['Biology','Physical Education']
+all_courses = courses + courses_2
+
+
+print(len(courses))
+
+print(courses[2:])
+
+courses.append("Art")
+print(courses)
+
+courses.insert(3,"Chemistry")
+
+print(courses)
+
+print(all_courses)
+
+all_courses.pop
+print(all_courses)
+
+all_courses.remove('CompSci')
+print(all_courses)
+
+all_courses.reverse()
+print(all_courses)
+
+all_courses.sort()
+print(all_courses)
+
+courses.reverse()
+print(courses)
+
+nums = [1,5,2,4,3]
+
+print(sorted(nums))
+
+print(sum(nums))
+
+print(all_courses)
+
+print('History' in all_courses)
+
+for course in all_courses:
+    print(course)
+
+
+for course in enumerate(all_courses):
+    print(course)
+
+for course in enumerate(all_courses):
+    print(course[0],course[1])
+
+courses_str = ",".join(all_courses)
+print(courses_str)
+
+print(all_courses)
+
+new_all_courses = courses_str.split(",")
+print(new_all_courses)

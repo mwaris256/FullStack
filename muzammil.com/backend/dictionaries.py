@@ -63,4 +63,32 @@ for key,value in employees.items():
     print(f'Name : {key}, Salary: {value}')
 
 
+# Practice
 
+capitals = {"USA": "Washington D.C", 
+            "Pakistan" : "Islamabad",
+            "Canada": "Ottawa",
+            "England" : "London",
+            "Australia": "Canberra"}
+
+print(capitals.get("Pakistan"))
+
+capitals.update({"Germany": "Berlin"})
+print(capitals)
+
+capitals.pop("USA")
+print(capitals)
+
+capitals.popitem()
+print(capitals)
+
+#keys = capitals.keys()
+
+for key in capitals.keys():
+    print(key)
+
+for value in capitals.values():
+    print(value)
+
+for key,value in capitals.items():
+    print(f'Country: {key}, Capital: {value}')

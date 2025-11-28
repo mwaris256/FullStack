@@ -42,3 +42,16 @@ print(fruits.count("coconut"))
 
 for fruit in fruits:
     print(fruit)
+
+tuple_1 = ("History","Math",'Physics','CompSci')
+tuple_2 = tuple_1
+
+print(tuple_1)
+print(tuple_2)
+
+my_list = list(tuple_1)
+my_list.append('Art')
+new_tuple = tuple(my_list)
+
+print(new_tuple)
+print(tuple_2)
