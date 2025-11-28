@@ -1,3 +1,4 @@
+# Tuple = () ordered and unchangeable, Duplicates OK. FASTER
 #Store multiple items in a single variable
 #Tuple is ordered, unchangeable and allows duplicate values
 
@@ -31,3 +32,13 @@ print(numbers[1] * numbers[3])
 countries = ('Canada','Pakistan','Australia','England','South Africa','Sri Lanka')
 print(countries[:2])
 print(countries[4:])
+
+# Practice
+
+fruits = ('apple','orange','banana','coconut','coconut')
+
+print(fruits.index("orange"))
+print(fruits.count("coconut"))
+
+for fruit in fruits:
+    print(fruit)

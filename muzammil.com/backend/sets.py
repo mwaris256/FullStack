@@ -1,3 +1,4 @@
+# Set = {} unordered and immutable, Add/Remove OK. No Duplicates
 #to store multiple items in a single variable
 #sets are unordered, unindexed, and do not allow duplicate values
 
@@ -39,3 +40,12 @@ print(my_list)
 
 numbers_2 = {1,2,2,3,3,4,5}
 print(numbers_2)
+
+#Practice
+
+fruits = {"apple", 'orange','banana', 'coconut'}
+
+fruits.add("mango")
+fruits.remove("apple")
+fruits.pop()
+print(fruits)
