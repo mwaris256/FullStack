@@ -19,6 +19,13 @@ while (j <5) {
     j++;
 }
 
+
+//let i = 0;
+//while(j < 5){
+  //  console.log("The value of j is: " + j);
+   // j++;
+//}
+
 //do while loop
 let k = 0;
 do {
@@ -105,11 +112,11 @@ for (let x=1; x < 21; x++){
 }
 
 //4. Print multiplcation table of 7.
-for (let x=7; x < 71; x++ ) {
-    if (x % 7 == 0) {
-        console.log(x)
-    }
-}
+//for (let x=7; x < 71; x++ ) {
+  //  if (x % 7 == 0) {
+    //    console.log(x)
+   // }
+//}
 
 //5. Print numbers 10-->1 (reverse).
 for (let x=10; x > 0; x--){
@@ -228,3 +235,26 @@ for (x=1; x<51; x ++) {
     if (x % 13 == 0){break;}
     console.log(x);
 }
+
+//count = 1;
+//for (let x=7; x < 71; x++ ) {
+  //  if (x % 7 == 0) {
+    //    console.log(`7*${count} = ${int(7)} * ${count}`)
+    //}
+//}
+
+
+function add(a,b) {
+	return a + b;
+}
+
+function divide(a,b) {
+	return a/b;
+}
+
+function calculate(x,y, operation) {
+	return operation(x,y);
+}
+
+console.log(calculate(2,2,add));
+console.log(calculate(2,2,divide));

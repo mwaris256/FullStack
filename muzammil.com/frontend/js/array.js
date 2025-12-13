@@ -149,12 +149,24 @@ for (let f =0; f < array2.length; f++){
     console.log(array2[f]);
 }
 
+//for (let f=0; f < array2.length; f++){
+  //  console.log(array2[f] * 2);
+//}
+
 //15.
 
 for (value of array3){
     console.log(value);
-
 }
+//for (value of array3){
+  //  console.log(value);
+//}
+
+//for (let x =0; x < array2.length; x++){
+  //  console.log(array2[x] + 5);
+//}
+
+
 
 //16. 
 
@@ -171,9 +183,15 @@ for (i=0; i < nums.length; i++){
     if (nums[i] % 2 == 0){
         console.log(nums[i]);
     }
-}
 
-//18. 
+//for (i=0; i < nums.length; i++){
+  //  if (nums[1] % 2 == 0){
+    //    console.log(nums[i]);
+//    }
+//}
+//}
+
+18. 
 
 sum = 0 
 for (i=0; i < nums.length; i++){

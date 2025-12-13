@@ -15,6 +15,18 @@ student.name = "Muzammil";
 student.age = 20;
 student.isStudent = true;
 
+//let student = {};
+
+//student.name = "Muzammil";
+//student.age = 20;
+//student.isStudent = true;
+
+//let student2  = {
+  //  name : "Muzammil",
+    //age: 30,
+    //isStudent: true};
+
+
 let student2 = {
 name :"Muzammil",
 age: 30,

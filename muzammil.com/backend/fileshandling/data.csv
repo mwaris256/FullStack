@@ -1,0 +1,6 @@
+data = [
+    ['Name', 'Age', 'City'],
+    ['Michael', 45, 'New York'],
+    ['Jack', 32, 'California'],
+    ['John', 28, 'Chicago']
+]

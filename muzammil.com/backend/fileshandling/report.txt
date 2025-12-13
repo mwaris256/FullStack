@@ -1,0 +1,42 @@
+Processing began at: 20120904.093913 using command line:
+-f 20.rdb -d twenty -m 1
+Samples 1
+Compounds 25
+
+Compound                          Detected Not Detected     Missing  Frequency%
+P1                                       1            0           0  100.000000
+P2                                       1            0           0  100.000000
+P3                                       1            0           0  100.000000
+P4                                       1            0           0  100.000000
+P5                                       1            0           0  100.000000
+P6                                       1            0           0  100.000000
+P7                                       1            0           0  100.000000
+P8                                       1            0           0  100.000000
+P9                                       1            0           0  100.000000
+P10                                      1            0           0  100.000000
+P11                                      1            0           0  100.000000
+P12                                      1            0           0  100.000000
+P13                                      1            0           0  100.000000
+P14                                      1            0           0  100.000000
+P15                                      1            0           0  100.000000
+P16                                      1            0           0  100.000000
+P17                                      1            0           0  100.000000
+P18                                      1            0           0  100.000000
+P19                                      1            0           0  100.000000
+P20                                      0            1           0    0.000000
+P21                                      0            1           0    0.000000
+P22                                      0            1           0    0.000000
+P23                                      0            1           0    0.000000
+P24                                      0            1           0    0.000000
+P25                                      1            0           0  100.000000
+
+Potential mixtures of 25 constituents: 33554404
+Mixture-listing phase completed in 302 seconds.
+Established tempfile for counting
+Finished counting unique mixtures
+Temp directory is /tmp
+Preparing to sort unique mixtures
+Mixture-enumeration phase completed in 424.04 seconds.
+1048555 unique mixtures identified in data file 20.rdb.
+1048555 unique mixtures listed that occurred at least 1 times.
+Processing completed at 20120904.095149

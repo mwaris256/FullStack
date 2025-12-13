@@ -13,6 +13,14 @@ function welcome(name, age) {
     console.log("Hello " + name + "!" + age);
 }
 
+function hello(){
+    console.log("Hello World!");
+}
+
+function welcome(name,age){
+    console.log("Welcome" + name + "!" + age);
+}
+
 welcome("Muzammil",20);
 welcome("Ali", );
 welcome("Ahmed", 25);
@@ -32,6 +40,13 @@ let sum = (a, b) => {
     return a + b;
 }   
 console.log(sum(5, 10));
+
+
+// let sum equals a,b arrow
+
+//let sum = (a,b) => {
+  //  return a + b;
+//}
 
 let sum1 = (a, b) => a + b;         
 console.log(sum1(15, 10));
