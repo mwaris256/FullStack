@@ -49,6 +49,8 @@ tuple_2 = tuple_1
 print(tuple_1)
 print(tuple_2)
 
+
+# to add something to a tuple, we need to convert it to a list first then convert back to tuple
 my_list = list(tuple_1)
 my_list.append('Art')
 new_tuple = tuple(my_list)

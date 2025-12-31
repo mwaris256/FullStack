@@ -83,13 +83,18 @@ console.log(points); // sorts array in descending order
 
 //1. 
 
+fruits1 = ["apple","banana","mango"];
+console.log(fruits1);
+
 fruits1 = ["apple","banana", "mango"];
 console.log(fruits1);
 
 //2.
 
-console.log(fruits1[0]);
-console.log(fruits1[fruits1.length - 1]);
+
+
+console.log(fruits1[0]); //first element in array 
+console.log(fruits1[fruits1.length - 1]); //last element in array
 
 //3.
 
@@ -98,7 +103,7 @@ console.log(fruits1);
 
 //4.
 
-fruits1.unshift("grapes");
+fruits1.unshift("grapes"); // add grapes at the start of the array
 console.log(fruits1);
 
 //5. 
@@ -145,6 +150,7 @@ console.log(array3);
 
 //14. 
 
+
 for (let f =0; f < array2.length; f++){
     console.log(array2[f]);
 }
@@ -154,6 +160,11 @@ for (let f =0; f < array2.length; f++){
 //}
 
 //15.
+
+//for (value of array3){
+  //  console.log(value)
+//}
+
 
 for (value of array3){
     console.log(value);
@@ -331,3 +342,4 @@ for (let rnum of rnumbers){
     }
 }
 console.log(d3nums);
+}

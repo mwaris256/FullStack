@@ -32,6 +32,7 @@ byte_array = bytearray(b'Hello') #bytearray
 print(type(byte_array))
 
 memory_view = memoryview(b"Hello") #memoryview
+print(type(memory_view))
 
 
 #1.

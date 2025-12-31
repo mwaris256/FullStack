@@ -10,6 +10,8 @@ print(len(thisset)) # Output: 3
 
 # 1. 
 numbers = {1,2,3,4,5}
+numbers.add(6)
+print(numbers)
 numbers.remove(2)   
 print(numbers)
 
